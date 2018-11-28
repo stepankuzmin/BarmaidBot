@@ -7,10 +7,10 @@ Barmaid is a telegram bot that will help you find the nearest bar.
 Create and populate `up.json`
 
 ```shell
-
+cp example.up.json up.json
 ```
 
-Deploy on staging environment using `apex/up`
+Deploy using [apex/up](https://github.com/apex/up).
 
 ```shell
 up
