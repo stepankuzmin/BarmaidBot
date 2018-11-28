@@ -1,0 +1,12 @@
+{
+  "name": "",
+  "profile": "",
+  "regions": [""],
+  "environment": {
+    "DYNAMODB_TABLE": "",
+    "DYNAMODB_REGION": "",
+    "FOURSQUARE_CLIENT_ID": "",
+    "FOURSQUARE_CLIENT_SECRET": "",
+    "TELEGRAM_API_TOKEN": ""
+  }
+}

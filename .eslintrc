@@ -1,0 +1,13 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "rules": {
+    "arrow-parens": ["warn", "as-needed", { "requireForBlockBody": true }],
+    "comma-dangle": ["error", "never"],
+    "function-paren-newline": ["error", "consistent"],
+    "max-len": [
+      "error",
+      { "code": 80, "ignoreComments": true, "ignoreUrls": true }
+    ],
+    "quotes": ["error", "single"]
+  }
+}
