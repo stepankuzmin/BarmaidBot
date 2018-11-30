@@ -96,6 +96,8 @@ Object.keys(beverages).forEach((beverage) => {
 bot.on('location', async (ctx) => {
   const { location } = ctx.message;
   const { emoji, categoryId } = beverages[ctx.session.beverage];
+  ctx.session.beverage = null;
+
   const venues = await fetchVenues(categoryId, location);
 
   if (venues && venues.length > 0) {
